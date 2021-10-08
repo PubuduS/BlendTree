@@ -13,7 +13,8 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         //agent.updatePosition = false;
-        agent.updateRotation = false;
+        agent.updateRotation = true;
+        
     }
     // Update is called once per frame
     void Update()
